@@ -81,6 +81,8 @@ footer div {
 footer a {
     color: #024e76;
 }
+/* footer end */
+/* style all section tags*/
 section {
     padding: 60px;
 }
@@ -202,14 +204,15 @@ margin: 4px 0 15px 0;
     margin: 50px auto;
     padding-bottom: 50px;
     width: 80%;
+    border-bottom: 1px solid #39a6b2;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
 
-.step:nth-child(even) {
-    border-bottom: 1px solid #39a6b2;
+.step:last-child {
+    border-bottom: none;
 }
 
 .step h3 {
